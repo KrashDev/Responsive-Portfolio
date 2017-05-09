@@ -239,65 +239,106 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-    p {
-        color: green;
-  }
+p {
+  color: green;
+}
 
-    #main-container {
-      width: 70%;
-      max-width: 500px;
+.container {
+  width: 60%;
+  max-width: 600px;
 
-    }
-    .auth-image {    
-        width: 100%;
-        height: auto;    
-  }
-    .sidebar {
-      max-width: 100%;
-        width: 100%;
-        height: auto;    
+}
+.auth-image {    
+  width: 100%;
+  height: auto;    
+}
+.sidebar {
+  /*max-width: 100%;*/
+
+  width: 100%;
+  height: auto;    
   }
 }
 
 @media screen and (max-width: 768px) {
-     p {
-      color: red;
-    }
+p {
+  color: red;
+}
+nav #masthead {
+  display: inline;
+}
 
-    #main-container {
-        float: left;
-        width: 100%;
-        max-width: 500px;
 
-    }
-    .auth-image {    
-        width: 100%;
-        height: auto;    
-  }
-    .sidebar {
-        max-width: 500px;   
-        width: 100%;
-        height: auto;    
-  }
+#main-container {
+  float: left;
+  width: 100%;
+  max-width: 500px;
+
+}
+.auth-image {    
+  width: 100%;
+  height: auto;    
+}
+.sidebar {
+  max-width: 500px;   
+  width: 100%;
+  height: auto;    
+}
+.main-section {
+ /* width: 100%;*/
+  width: 768px;
+}
+
+
+
+.work img {
+float: left;
+width: 100%;
+padding: 0; 
+}
+
+ 
+}
+
+.work h3 {
+bottom: 10px;
+padding: 5px;
+font-size: 20px;
+
+ 
+}
 }
 
 @media screen and (max-width: 640px) {
-     p {
-        color: blue;
-  }
-        
-  #main-container {
-        width: 100%;
-        max-width: 500px;
-
-    }
-    .auth-image {    
-        width: 100%;
-        height: auto;    
-  }
-    .sidebar {
-        max-width: 500px;  
-        width: 100%;
-        height: auto;    
-  }
+p {
+  color: blue;
 }
+        
+#main-container {
+  width: 100%;
+  max-width: 500px;
+
+}
+.auth-image {    
+  width: 100%;
+  height: auto;    
+}
+.sidebar {
+  max-width: 500px;  
+  width: 100%;
+  height: auto;    
+}
+#logo {
+  width: 100%;
+  
+}
+nav {
+  width:100%;
+  text-align: center;
+}
+
+.work {
+  width: 100%;
+ 
+}
+
